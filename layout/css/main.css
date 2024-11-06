@@ -1,0 +1,300 @@
+*, ::before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    display: block;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 84px;
+}
+
+.header-container{
+    width: 1350px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+.name{
+    
+}
+
+.nav{
+    margin-left: 39px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #2A2D46;
+}
+
+.class-blue-cross{
+    margin-right: 32.5px;
+    color: #3145FF;
+    text-decoration: none;
+}
+
+.nav-link{
+    margin-right: 32.5px;
+    color: #2A2D46;
+    text-decoration: none;
+}
+
+.call {
+    display: flex;
+    margin-left: 34px;
+    border: 1px solid #EB2D66; /* Рамка */
+    padding: 6px; /* Внутренние отступы */
+    border-radius: 1px; /* Закругление углов */
+    font-weight: bold;
+}
+
+.call a{
+    text-decoration: none;
+    color: #EB2D66;
+    font-size: 11px;
+}
+
+.number a{
+    text-decoration: none;
+    color: #2A2D46;    
+    font-weight: bold;
+    margin-left: 61px;
+    font-size: 13px;
+}
+
+.balance{
+    margin-left: 69px;
+}
+
+.balancescore{
+    display: block;
+}
+
+.balancescore a{
+    color:#2A2D46;
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.trio{
+    margin-left: 11px;
+}
+
+/* Main */
+
+.main{
+
+}
+
+.main-container{
+    width: 1350px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.main-content{
+    width: 544px;
+    height: 279px;
+}
+
+.main-text{
+    width: 380px;
+}
+
+.main-img {
+    width: 802px;
+    height: 434px;
+    position: relative; /* Устанавливаем относительное позиционирование */
+}
+
+.main-fon {
+    margin-left: 170px;
+}
+
+.main-img {
+    position: relative; /* Добавляем это правило */
+}
+
+.main-cross {
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 102px; /* Позиция сверху относительно родительского контейнера */
+    left: 0px; /* Позиция слева относительно родительского контейнера */
+}
+
+.main-square{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 45px; /* Позиция сверху относительно родительского контейнера */
+    left: 505px; /* Позиция слева относительно родительского контейнера */
+}
+
+
+.main-header{
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #2A2D46;
+    font-size: 36px;
+    font-weight: 900px;
+    line-height: 43.88px;
+}
+
+.main-Nike{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 55px; /* Позиция сверху относительно родительского контейнера */
+    left: 523px; /* Позиция слева относительно родительского контейнера */
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main-top{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 79px; /* Позиция сверху относительно родительского контейнера */
+    left: 523px; /* Позиция слева относительно родительского контейнера */
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 14.63px;
+}
+
+.main-summ{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 115px; /* Позиция сверху относительно родительского контейнера */
+    left: 523px; /* Позиция слева относительно родительского контейнера */
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main-rectangle1{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 332px; /* Позиция сверху относительно родительского контейнера */
+    left: 589px; /* Позиция слева относительно родительского контейнера */
+}
+.main-rectangle2{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 332px; /* Позиция сверху относительно родительского контейнера */
+    left: 646px; /* Позиция слева относительно родительского контейнера */
+}
+
+.main-rectangle3{
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 332px; /* Позиция сверху относительно родительского контейнера */
+    left: 703px; /* Позиция слева относительно родительского контейнера */
+}
+
+.main-text{
+
+}
+
+.main-text p{
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #2A2D46;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 25.72px;    
+}
+
+.button{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 63px; 
+    display: inline-block;
+    padding-left: 42px;
+    padding-right: 42px;
+    height: 63px;
+    background: #EB2D66;
+    transition: background 0.3s ease; 
+    box-shadow: 0 4px 10px #f19bb5;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.medium{
+
+}
+
+.main-wrapper{
+    max-width: 1167px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav1{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.hot-arrivals{
+    font-size: 25px;
+    font-weight: 900;
+    color: #2A2D46;
+    text-decoration: none;
+    margin-right: 94px;
+}
+
+.all{
+    color: #3145FF;
+    text-decoration: none;
+    margin-right: 63.5px;
+}
+
+.nav1-link1{
+    color: #2A2D46;
+    text-decoration: none;
+    margin-right: 63.5px;
+}
+
+.parallelogram{
+    max-width: 1167px;
+    margin-top: 82px;
+    display: flex;
+}
+
+.parallelogram1{
+    margin-left: 216px;
+    margin: 0 auto;
+}
+
+.parallelogram2{
+    margin-left: 30px;
+    margin: 0 auto;
+}
+
+.parallelogram3{
+    margin-left: 30px;
+    margin: 0 auto;
+}
+
+.parallelogram4{
+    margin-left: 30px;
+    margin: 0 auto;
+}
+
+/* .sider{
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 539px;
+} */
