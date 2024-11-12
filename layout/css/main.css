@@ -5,6 +5,8 @@
 body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
@@ -724,6 +726,8 @@ img{
     text-align: center;
     background-color: #343A62;
     text-decoration: none;
+    align-self: center;
+    justify-content:center;
 }
 
 .background{
